@@ -1,5 +1,5 @@
 {
-  "name": "pantheon-upstreams/wordpresss-project",
+  "name": "nullvariable/wordpress-project",
   "description": "Install Wordpress with Composer on Pantheon",
   "type": "project",
   "keywords": [],
@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "pantheon-upstreams/upstream-config": "*"
+    "nullvariable/upstream-config": "*"
   },
   "config": {
     "vendor-dir": "vendor",
