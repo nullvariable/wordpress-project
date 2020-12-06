@@ -22,7 +22,7 @@
     "optimize-autoloader": true,
     "sort-packages": true,
     "platform": {
-      "php": "7.2"
+      "php": "7.4"
     }
   },
   "extra": {
@@ -36,7 +36,7 @@
     "installer-paths": {
       "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/wp-content/themes/{$name}/": ["type:wordpress-theme"],
-      "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
+      "private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
     }
   },
   "autoload": {
